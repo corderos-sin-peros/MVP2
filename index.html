@@ -1839,7 +1839,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') cerrarModal(
     elTitle.textContent = c.nombre;
     elDesc.textContent = c.descripcion;
     elSpecs.textContent = c.specs;
-    elLabel.textContent = c.nombre;
+    elLabel.textContent = 'Selecciona un corte';
     if(c.imagen){ elImg.src = c.imagen; elImg.alt = c.nombre; elImg.style.display = ''; }
     else { elImg.style.display = 'none'; }
     if(c.alternativas && c.alternativas.length){
